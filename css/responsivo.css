@@ -1,0 +1,164 @@
+@media(min-width: 1024px){
+    body{
+        background: rgb(8,91,133);
+        background: linear-gradient(0deg, rgba(8,91,133,1) 0%, rgba(0,212,255,1) 100%, rgba(20,134,193,1) 100%);    width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main{
+        width: 90%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(128,0,128);
+        background: linear-gradient(180deg, rgba(128,0,128,0.9052871148459384) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);    border-radius: 20px;
+        padding: 5%;
+        border: 4px solid rgba(255, 255, 255, 0.689);
+    }
+    
+    header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .perfil{
+        width: 50%;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+    
+    nav{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .icone{
+        width: 15%;
+        height: 80%;
+    }
+    
+    footer{
+        margin-left: 20px;
+    }
+    
+    h1{
+        margin-top: 5%;
+        font-family: 'Alex Brush', cursive;  
+        color: antiquewhite;
+        font-weight: 400;
+        text-align: center;
+        font-size: 3em;
+    }
+    
+    h2{
+        margin-top: 5%;
+        font-family: 'zilla', sans-serif;  
+        color: antiquewhite;
+        font-weight: 400;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    #unifatecie-btn, #uninassau-btn, a{
+        text-decoration: none;
+        color: antiquewhite;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border: 2px dashed white;
+        border-radius: 30px;
+        font-family: 'zilla', sans-serif;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    a:hover, button:hover{
+        transform: scale(1.06);
+    }
+    
+     .icone{
+        margin-right: 5%;
+     }
+
+    
+
+     input, select{
+        display: block;
+     }
+    
+     .form-unifatecie{
+        width: 80%;
+        height: 70%;
+        background: rgb(245,134,52);
+        background: linear-gradient(180deg, rgba(245,134,52,1) 25%, rgba(96,96,98,1) 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5%;
+        position: absolute;
+        margin-left: -200%;
+        transition: 0.5s ease-in-out;
+        border-radius: 20px;
+     }
+
+     .form-uninassau{
+        width: 80%;
+        height: 70%;
+        background: rgb(0,56,115);
+        background: linear-gradient(180deg, rgba(0,56,115,1) 0%, rgba(235,28,35,1) 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5%;
+        position: absolute;
+        margin-left: -200%;
+        transition: 0.5s ease-in-out;
+        border-radius: 20px;
+     }
+
+     input, select{
+        width: 80%;
+        height: 10%;
+        border-radius: 10px;
+        border: none;
+        padding: 1%;
+     }
+
+     #fechar-unifatecie, #enviar-unifatecie, #enviar-uninassau, #fechar-uninassau{
+        text-decoration: none;
+        color: antiquewhite;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        border: 2px dashed white;
+        border-radius: 30px;
+        font-family: 'zilla', sans-serif;
+        transition: all 0.3s ease-in-out;
+        background-color: transparent;
+        cursor: pointer;
+     }
+
+}

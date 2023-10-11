@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+@font-face {
+    font-family: 'zilla';
+    src: url('../fonts/ZillaSlab-LightItalic.ttf') format(truetype);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(8,91,133);
+    background: linear-gradient(0deg, rgba(8,91,133,1) 0%, rgba(0,212,255,1) 100%, rgba(20,134,193,1) 100%);    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(128,0,128);
+    background: linear-gradient(180deg, rgba(128,0,128,0.9052871148459384) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);    border-radius: 20px;
+    padding: 5%;
+    border: 4px solid rgba(255, 255, 255, 0.689);
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.perfil{
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+nav{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out;
+    gap: 2%;
+
+}
+
+
+
+.icone{
+    width: 20%;
+    height: 80%;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+h1{
+    margin-top: 5%;
+    font-family: 'Alex Brush', cursive;  
+    color: antiquewhite;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 0%;
+    font-family: 'zilla', sans-serif;  
+    color: antiquewhite;
+    font-weight: 400;
+    text-align: center;
+    font-size: 24px;
+}
+
+#unifatecie-btn, #uninassau-btn, a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px dashed white;
+    border-radius: 30px;
+    font-family: 'zilla', sans-serif;
+    transition: all 1s ease-in-out;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+ .icone{
+    margin-right: 5%;
+ }
+
+ .form-unifatecie{
+    width: 80%;
+    height: 70%;
+    background: rgb(245,134,52);
+    background: linear-gradient(180deg, rgba(245,134,52,1) 25%, rgba(96,96,98,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+    position: absolute;
+    margin-left: -200%;
+    transition: 0.5s ease-in-out;
+    border-radius: 20px;
+ }
+
+ .form-uninassau{
+    width: 80%;
+    height: 70%;
+    background: rgb(0,56,115);
+    background: linear-gradient(180deg, rgba(0,56,115,1) 0%, rgba(235,28,35,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+    position: absolute;
+    margin-left: -200%;
+    transition: 0.5s ease-in-out;
+    border-radius: 20px;
+ }
+
+ input, select{
+    width: 80%;
+    height: 10%;
+    border-radius: 10px;
+    border: none;
+    padding: 1%;
+ }
+
+ #fechar-unifatecie, #enviar-unifatecie, #enviar-uninassau, #fechar-uninassau{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border: 2px dashed white;
+    border-radius: 30px;
+    font-family: 'zilla', sans-serif;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    cursor: pointer;
+ }
+ 
